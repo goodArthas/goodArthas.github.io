@@ -32,7 +32,7 @@ btn.onclick = function(){
 if (!localStorage.getItem(`name`)) {
 	setUserName();
 } else {
-	var name = localstorage.getItem(`name`);
+	var name = localStorage.getItem(`name`);
 	header.textContent = name;
 }
 
